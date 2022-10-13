@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spel</title>
+    <link rel="stylesheet" href="main.scss" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <h1>Pick a number från 1 till 10</h1>
+    <input type="text" id="myNumber" />
+    <!-- <button type="button" onclick="clear()">Submit</button> -->
+    <button type="button" onclick="getSecretNumber()">Submit</button>
+    <h2>Gissa siffran</h2>
+    <input type="text" id="guess" />
+    <button id="btn" type="button" onclick="check()">Check out</button>
+
+    <p id="feedback"></p>
+  </body>
+</html>
